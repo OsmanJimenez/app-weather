@@ -145,7 +145,7 @@ function App() {
   
 
   return (
-    <div>
+    <div class="App_Content">
 
 
       <TextField id="standard-basic" label="Buscador" value={busqueda}
@@ -175,7 +175,7 @@ function App() {
                 <TableCell component="th" scope="row">
                   {row.city_name}
                 </TableCell>
-                <TableCell align="right">{row.observation_Time}</TableCell>
+                <TableCell align="right">{row.observation_Time.substr(0,10)}</TableCell>
                 <TableCell align="right">{row.temperature }°</TableCell>
                 <TableCell align="right">{row.wind_Speed }</TableCell>
                 <TableCell align="right">{row.wind_Dir}</TableCell>

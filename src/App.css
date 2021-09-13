@@ -99,6 +99,10 @@ table{
   margin: 10px !important;
 }
 
+.App_Content{
+  margin: 0px 10vw !important;
+}
+
 @media (max-width: 988px){
   
   .inputBuscar{
